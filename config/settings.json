@@ -1,0 +1,47 @@
+{
+    "video": {
+        "width": 1280,
+        "height": 720,
+        "fps": 0,
+        "vsync": 0,
+        "show_fps": false
+    },
+    "language": {
+        "language_set": "pt-BR",
+        "en-US": {
+            "title": "Space Shooter",
+            "score": "Score",
+            "start": "Start",
+            "options": "Options",
+            "exit": "Exit",
+            "show_fps": "Show FPS",
+            "language": "English",
+            "fullscreen": "Fullscreen"
+        },
+        "pt-BR": {
+            "title": "Space Shooter",
+            "score": "Pontuação",
+            "start": "Iniciar",
+            "options": "Opções",
+            "exit": "Sair",
+            "show_fps": "Mostrar FPS",
+            "language": "Português",
+            "fullscreen": "Tela cheia"
+        }
+    },
+    "audio": {
+        "main_volume": 100
+    },
+    "game_data": {
+        "times_played": 0,
+        "high_score": 0,
+        "max_enemies_defeated": 0
+    },
+    "keys": {
+        "up": "w",
+        "down": "s",
+        "left": "a",
+        "right": "d",
+        "shoot": "space"
+    }
+}
