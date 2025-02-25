@@ -48,6 +48,7 @@ class Screen():
         self.aspect_ratio = (self.width_ratio, self.height_ratio)
         # Set the window title.
         pygame.display.set_caption(self.settings.game_texts['title'])
+        
     
     def scale_screen(self, screen):
         '''
@@ -77,6 +78,7 @@ class Screen():
         self.settings.set_settings('video', 'vsync', vsync)
         # Restart the display to apply the new settings.
         pygame.display.quit()
+        pygame.mixer.quit()
         self.set_screen(width, height, vsync)
     
     def delta_time(self):

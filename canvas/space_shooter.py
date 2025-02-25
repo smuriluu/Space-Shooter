@@ -85,10 +85,3 @@ class SpaceShooter():
         '''
         Handle inputs, such as button clicks and slider interactions.
         '''
-        recent_keys = pygame.key.get_just_pressed()
-        if recent_keys[pygame.K_0]:
-            self.screen.resize_screen(720, 480, 0)
-            self.new_screen()
-        if recent_keys[pygame.K_1]:
-            self.screen.resize_screen(1280, 720, 0)
-            self.new_screen()
